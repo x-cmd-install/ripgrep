@@ -1,0 +1,61 @@
+about:
+  description: ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+  license: Unlicense
+  homepage: 
+  head: 3fce3b5
+  archived: false
+  latestVersion: 15.2.0
+  collectedAt: 2026-08-31T05:21:28Z
+timeline:
+  created: 2016-03-11
+  lastCommit: 2026-08-04
+  lastRelease: 2026-07-15
+popularity:
+  star: 67728
+  watcher: 313
+  fork: 2744
+  release: 75
+  contributor: 445
+  pullRequest: 577
+  issue: 1822
+language:
+  Rust: 1902104
+  Python: 47804
+  Shell: 37198
+  Roff: 13889
+  Ruby: 804
+  Lua: 192
+totalLine: 2001991
+recent:
+  last30d:
+    since: 2026-08-01
+    release: 0
+    mergedPR: 2
+    openPR: 11
+    closedIssue: 2
+    openIssue: 4
+    commit: 0
+  last90d:
+    since: 2026-06-02
+    release: 1
+    mergedPR: 22
+    openPR: 24
+    closedIssue: 12
+    openIssue: 13
+    commit: 60
+  last180d:
+    since: 2026-03-04
+    release: 1
+    mergedPR: 26
+    openPR: 51
+    closedIssue: 25
+    openIssue: 30
+    commit: 72
+  last360d:
+    since: 2025-09-05
+    release: 3
+    mergedPR: 54
+    openPR: 64
+    closedIssue: 67
+    openIssue: 39
+    commit: 162
