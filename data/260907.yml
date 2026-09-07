@@ -5,19 +5,19 @@ about:
   head: 3fce3b5
   archived: false
   latestVersion: "15.2.0"
-  collectedAt: 2026-09-07T05:45:42Z
+  collectedAt: 2026-09-07T18:41:32Z
 timeline:
   created: 2016-03-11
   lastCommit: 2026-08-04
   lastRelease: 2026-07-15
 popularity:
-  star: 68024
+  star: 68056
   watcher: 316
-  fork: 2749
+  fork: 2750
   release: 75
   contributor: 444
   pullRequest: 1151
-  issue: 1824
+  issue: 1825
 language:
   Rust: 1902104
   Python: 47804
@@ -33,7 +33,7 @@ recent:
     mergedPR: 0
     openPR: 11
     closedIssue: 2
-    openIssue: 4
+    openIssue: 5
     commit: 0
   last60d:
     since: 2026-07-09
@@ -41,7 +41,7 @@ recent:
     mergedPR: 12
     openPR: 21
     closedIssue: 9
-    openIssue: 10
+    openIssue: 11
     commit: 34
   last90d:
     since: 2026-06-09
@@ -49,7 +49,7 @@ recent:
     mergedPR: 21
     openPR: 26
     closedIssue: 11
-    openIssue: 13
+    openIssue: 14
     commit: 59
   last180d:
     since: 2026-03-11
@@ -57,7 +57,7 @@ recent:
     mergedPR: 26
     openPR: 54
     closedIssue: 21
-    openIssue: 29
+    openIssue: 30
     commit: 70
   last360d:
     since: 2025-09-12
@@ -65,7 +65,7 @@ recent:
     mergedPR: 54
     openPR: 67
     closedIssue: 64
-    openIssue: 41
+    openIssue: 42
     commit: 161
   last720d:
     since: 2024-09-17
@@ -73,18 +73,18 @@ recent:
     mergedPR: 63
     openPR: 67
     closedIssue: 161
-    openIssue: 48
+    openIssue: 49
     commit: 240
 total:
   release: 75
   mergedPR: 571
   openPR: 67
   closedIssue: 1703
-  openIssue: 121
+  openIssue: 122
   commit: 2287
 ---
 path: /home/runner/.x-repo/github.com/BurntSushi/ripgrep
-collectedAt: 2026-09-07T05:45:44Z
+collectedAt: 2026-09-07T18:41:33Z
 loc:
   Rust:
     code: 41084
@@ -253,7 +253,7 @@ checks:
       - 'Warn: 0 commits out of 19 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:45:44+00:00
+  collectedAt: 2026-09-07T18:41:34+00:00
   platform:
     darwin/arm64:
       name:  ripgrep-15.2.0-aarch64-apple-darwin.tar.gz
