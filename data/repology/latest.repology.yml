@@ -1,16 +1,25 @@
-- repo: alpine_3_17
-  subrepo: community
+- repo: chimera
+  subrepo: user
   srcname: ripgrep
-  binname: ripgrep
-  visiblename: ripgrep
-  version: 13.0.0
-  origversion: 13.0.0-r1
-  status: outdated
-  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
-  maintainers:
-    - aklitzing@gmail.com
+  binname: ripgrep-fishcomp
+  visiblename: ripgrep-fishcomp
+  version: 15.2.0
+  origversion: 15.2.0-r0
+  status: newest
+  summary: Recursive grep-like tool (fish completions)
   licenses:
-    - MIT OR Public-Domain
+    - MIT OR Unlicense
+- repo: chimera
+  subrepo: user
+  srcname: ripgrep
+  binname: ripgrep-man
+  visiblename: ripgrep-man
+  version: 15.2.0
+  origversion: 15.2.0-r0
+  status: newest
+  summary: Recursive grep-like tool (manual pages)
+  licenses:
+    - MIT OR Unlicense
 - repo: adelie_current
   subrepo: user
   srcname: ripgrep
@@ -70,16 +79,19 @@
     - aklitzing@gmail.com
   licenses:
     - MIT OR Public-Domain
-- repo: crux_38
-  subrepo: contrib
+- repo: alpine_3_17
+  subrepo: community
   srcname: ripgrep
+  binname: ripgrep
   visiblename: ripgrep
-  version: 15.2.0
-  origversion: null
-  status: newest
-  summary: ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern
+  version: 13.0.0
+  origversion: 13.0.0-r1
+  status: outdated
+  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
   maintainers:
-    - tbier@posteo.de
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Public-Domain
 - repo: alpine_3_17
   subrepo: community
   srcname: ripgrep
@@ -591,18 +603,6 @@
     - aklitzing@gmail.com
   licenses:
     - MIT OR Unlicense
-- repo: pkgsrc_current
-  srcname: textproc/ripgrep
-  binname: ripgrep
-  visiblename: textproc/ripgrep
-  version: 15.2.0
-  origversion: 15.2.0nb1
-  status: newest
-  summary: Line-oriented search tool
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - textproc
 - repo: alpine_3_24
   subrepo: community
   srcname: ripgrep
@@ -794,28 +794,6 @@
 - repo: chimera
   subrepo: user
   srcname: ripgrep
-  binname: ripgrep-fishcomp
-  visiblename: ripgrep-fishcomp
-  version: 15.2.0
-  origversion: 15.2.0-r0
-  status: newest
-  summary: Recursive grep-like tool (fish completions)
-  licenses:
-    - MIT OR Unlicense
-- repo: chimera
-  subrepo: user
-  srcname: ripgrep
-  binname: ripgrep-man
-  visiblename: ripgrep-man
-  version: 15.2.0
-  origversion: 15.2.0-r0
-  status: newest
-  summary: Recursive grep-like tool (manual pages)
-  licenses:
-    - MIT OR Unlicense
-- repo: chimera
-  subrepo: user
-  srcname: ripgrep
   binname: ripgrep-zshcomp
   visiblename: ripgrep-zshcomp
   version: 15.2.0
@@ -857,6 +835,16 @@
   version: 14.1.1
   origversion: null
   status: outdated
+  summary: ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: ripgrep
+  visiblename: ripgrep
+  version: 15.2.0
+  origversion: null
+  status: newest
   summary: ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern
   maintainers:
     - tbier@posteo.de
@@ -1076,6 +1064,13 @@
     - Unlicense OR MIT
   categories:
     - Unspecified
+- repo: homebrew
+  srcname: ripgrep
+  visiblename: ripgrep
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Search tool like grep and The Silver Searcher
 - repo: fedora_39
   subrepo: updates
   srcname: rust-ripgrep
@@ -1156,12 +1151,6 @@
     - Unlicense OR MIT
   categories:
     - Unspecified
-- repo: pld
-  srcname: ripgrep
-  visiblename: ripgrep
-  version: 15.1.0
-  origversion: 15.1.0-1
-  status: outdated
 - repo: fedora_42
   subrepo: release
   srcname: rust-ripgrep
@@ -1211,22 +1200,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: rust-ripgrep
-  binnames:
-    - ripgrep
-    - rust-ripgrep-debuginfo
-    - rust-ripgrep-debugsource
-  visiblename: rust-ripgrep
-  version: 15.2.0
-  origversion: 15.2.0-1.fc44
-  status: newest
-  summary: Line-oriented search tool
-  licenses:
-    - Unlicense OR MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: rust-ripgrep
   binnames:
@@ -1237,6 +1210,22 @@
   version: 14.1.1
   origversion: 14.1.1-4.fc44
   status: legacy
+  summary: Line-oriented search tool
+  licenses:
+    - Unlicense OR MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-ripgrep
+  binnames:
+    - ripgrep
+    - rust-ripgrep-debuginfo
+    - rust-ripgrep-debugsource
+  visiblename: rust-ripgrep
+  version: 15.2.0
+  origversion: 15.2.0-1.fc44
+  status: newest
   summary: Line-oriented search tool
   licenses:
     - Unlicense OR MIT
@@ -1321,13 +1310,6 @@
   version: 15.2.0
   origversion: null
   status: newest
-  summary: Search tool like grep and The Silver Searcher
-- repo: homebrew
-  srcname: ripgrep
-  visiblename: ripgrep
-  version: HEAD
-  origversion: null
-  status: rolling
   summary: Search tool like grep and The Silver Searcher
 - repo: kali_rolling
   subrepo: main
@@ -1544,6 +1526,20 @@
   licenses:
     - Unlicense
     - MIT
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-ripgrep
+  binnames:
+    - ripgrep
+  visiblename: rust-ripgrep
+  version: 14.1.1
+  origversion: 14.1.1-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - utils
 - repo: nix_stable_25_05
   srcname: ripgrep
   visiblename: ripgrep
@@ -1600,20 +1596,6 @@
   licenses:
     - Unlicense
     - MIT
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: rust-ripgrep
-  binnames:
-    - ripgrep
-  visiblename: rust-ripgrep
-  version: 0.10.0
-  origversion: 0.10.0-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - utils
 - repo: openbsd
   srcname: textproc/ripgrep
   binname: ripgrep
@@ -1831,20 +1813,6 @@
     - sylvestre@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-ripgrep
-  binnames:
-    - ripgrep
-  visiblename: rust-ripgrep
-  version: 14.1.1
-  origversion: 14.1.1-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - utils
 - repo: pkgsrc_2026_1
   srcname: textproc/ripgrep
   binname: ripgrep
@@ -1869,6 +1837,38 @@
     - pkgsrc-users@netbsd.org
   categories:
     - textproc
+- repo: pkgsrc_current
+  srcname: textproc/ripgrep
+  binname: ripgrep
+  visiblename: textproc/ripgrep
+  version: 15.2.0
+  origversion: 15.2.0nb1
+  status: newest
+  summary: Line-oriented search tool
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - textproc
+- repo: pld
+  srcname: ripgrep
+  visiblename: ripgrep
+  version: 15.1.0
+  origversion: 15.1.0-1
+  status: outdated
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: rust-ripgrep
+  binnames:
+    - ripgrep
+  visiblename: rust-ripgrep
+  version: 0.10.0
+  origversion: 0.10.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - utils
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: rust-ripgrep
@@ -2174,20 +2174,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_20_04
-  subrepo: focal-updates/universe
-  srcname: rust-ripgrep
-  binnames:
-    - ripgrep
-  visiblename: rust-ripgrep
-  version: 11.0.2
-  origversion: 11.0.2-1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - sylvestre@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: rust-ripgrep
   binnames:
@@ -2201,14 +2187,14 @@
     - sylvestre@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
+- repo: ubuntu_20_04
+  subrepo: focal-updates/universe
   srcname: rust-ripgrep
   binnames:
     - ripgrep
   visiblename: rust-ripgrep
-  version: 13.0.0
-  origversion: 13.0.0-2ubuntu0.1
+  version: 11.0.2
+  origversion: 11.0.2-1ubuntu0.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2226,6 +2212,20 @@
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
+  srcname: rust-ripgrep
+  binnames:
+    - ripgrep
+  visiblename: rust-ripgrep
+  version: 13.0.0
+  origversion: 13.0.0-2ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - sylvestre@debian.org
   categories:
     - universe/misc
