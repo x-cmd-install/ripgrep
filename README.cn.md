@@ -47,7 +47,7 @@ x install ripgrep
 
 ## 流行度
 
-- **Star**: 68,162 · **Fork**: 2,753 · **开放 issue**: 1,825 · **贡献者**: 444
+- **Star**: 68,168 · **Fork**: 2,753 · **开放 issue**: 1,825 · **贡献者**: 444
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install ripgrep
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 12 | 1 | 5 | 0 |
-| last60d | 2026-07-12 | 1 | 12 | 23 | 8 | 11 | 34 |
-| 90d | 2026-06-12 | 1 | 21 | 28 | 11 | 14 | 59 |
-| last180d | 2026-03-14 | 1 | 26 | 55 | 21 | 29 | 70 |
-| 360d | 2025-09-15 | 3 | 54 | 69 | 64 | 42 | 161 |
-| last720d | 2024-09-20 | 3 | 62 | 69 | 158 | 49 | 239 |
+| 30d | 2026-08-12 | 0 | 0 | 11 | 1 | 5 | 0 |
+| last60d | 2026-07-13 | 1 | 12 | 23 | 8 | 11 | 34 |
+| 90d | 2026-06-13 | 1 | 21 | 28 | 11 | 14 | 59 |
+| last180d | 2026-03-15 | 1 | 26 | 55 | 21 | 29 | 70 |
+| 360d | 2025-09-16 | 3 | 54 | 69 | 64 | 42 | 161 |
+| last720d | 2024-09-21 | 3 | 62 | 69 | 158 | 49 | 239 |
 
 ## Release 资产
 
@@ -109,7 +109,7 @@ x install ripgrep
 | Ubuntu 26.04 LTS | `15.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `14.1.0` | ⚠️ outdated |
 | Arch | `15.2.0` | ✅ latest |
-| Homebrew | `15.2.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `15.2.0` | ✅ latest |
 | Nix unstable | `15.2.0` | ✅ latest |
 | Void | `15.2.0` | ✅ latest |
@@ -125,4 +125,4 @@ ripgrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T22:20:10Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T05:58:33Z._

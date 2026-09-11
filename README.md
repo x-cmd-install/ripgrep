@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 68,162 · **Forks**: 2,753 · **Open issues**: 1,825 · **Contributors**: 444
+- **Stars**: 68,168 · **Forks**: 2,753 · **Open issues**: 1,825 · **Contributors**: 444
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 12 | 1 | 5 | 0 |
-| last60d | 2026-07-12 | 1 | 12 | 23 | 8 | 11 | 34 |
-| 90d | 2026-06-12 | 1 | 21 | 28 | 11 | 14 | 59 |
-| last180d | 2026-03-14 | 1 | 26 | 55 | 21 | 29 | 70 |
-| 360d | 2025-09-15 | 3 | 54 | 69 | 64 | 42 | 161 |
-| last720d | 2024-09-20 | 3 | 62 | 69 | 158 | 49 | 239 |
+| 30d | 2026-08-12 | 0 | 0 | 11 | 1 | 5 | 0 |
+| last60d | 2026-07-13 | 1 | 12 | 23 | 8 | 11 | 34 |
+| 90d | 2026-06-13 | 1 | 21 | 28 | 11 | 14 | 59 |
+| last180d | 2026-03-15 | 1 | 26 | 55 | 21 | 29 | 70 |
+| 360d | 2025-09-16 | 3 | 54 | 69 | 64 | 42 | 161 |
+| last720d | 2024-09-21 | 3 | 62 | 69 | 158 | 49 | 239 |
 
 ## Release assets
 
@@ -109,7 +109,7 @@ Reported by **186** distros on [repology.org](https://repology.org/project/ripgr
 | Ubuntu 26.04 LTS | `15.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `14.1.0` | ⚠️ outdated |
 | Arch | `15.2.0` | ✅ latest |
-| Homebrew | `15.2.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `15.2.0` | ✅ latest |
 | Nix unstable | `15.2.0` | ✅ latest |
 | Void | `15.2.0` | ✅ latest |
@@ -125,4 +125,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:20:09Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:58:33Z._
