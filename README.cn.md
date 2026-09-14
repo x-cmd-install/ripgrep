@@ -47,22 +47,22 @@ x install ripgrep
 
 ## 流行度
 
-- **Star**: 68,216 · **Fork**: 2,762 · **开放 issue**: 1,825 · **贡献者**: 444
+- **Star**: 68,235 · **Fork**: 2,764 · **开放 issue**: 1,827 · **贡献者**: 444
 
 ## 累计统计
 
-- **发布数**: 75 · **已合并 PR**: 571 · **开放 PR**: 71 · **已关闭 issue**: 1703 · **开放 issue**: 122 · **提交数**: 2287
+- **发布数**: 75 · **已合并 PR**: 571 · **开放 PR**: 71 · **已关闭 issue**: 1703 · **开放 issue**: 124 · **提交数**: 2287
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 12 | 1 | 5 | 0 |
-| last60d | 2026-07-15 | 1 | 12 | 25 | 7 | 11 | 34 |
-| 90d | 2026-06-15 | 1 | 21 | 29 | 11 | 14 | 59 |
-| last180d | 2026-03-17 | 1 | 26 | 57 | 21 | 29 | 70 |
-| 360d | 2025-09-18 | 3 | 54 | 71 | 64 | 42 | 161 |
-| last720d | 2024-09-23 | 3 | 62 | 71 | 158 | 49 | 239 |
+| 30d | 2026-08-15 | 0 | 0 | 12 | 1 | 7 | 0 |
+| last60d | 2026-07-16 | 0 | 8 | 25 | 6 | 13 | 9 |
+| 90d | 2026-06-16 | 1 | 21 | 29 | 11 | 16 | 57 |
+| last180d | 2026-03-18 | 1 | 26 | 57 | 21 | 31 | 69 |
+| 360d | 2025-09-19 | 3 | 53 | 71 | 64 | 44 | 148 |
+| last720d | 2024-09-24 | 3 | 62 | 71 | 158 | 51 | 239 |
 
 ## Release 资产
 
@@ -97,25 +97,6 @@ x install ripgrep
 | [ripgrep_15.2.0-1_amd64.deb](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb) | 1.6 MiB | `runtime/deb/amd64` |
 | [ripgrep_15.2.0-1_amd64.deb.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb.sha256) | 93 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/ripgrep) 上共有 **186** 个发行版报告此项目。**63** 个 ✅ 已是最新上游版本，**109** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `15.2.0` | ✅ latest |
-| Debian 14 | `15.2.0` | ✅ latest |
-| Debian 13 | `14.1.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `15.1.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `14.1.0` | ⚠️ outdated |
-| Arch | `15.2.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `15.2.0` | ✅ latest |
-| Nix unstable | `15.2.0` | ✅ latest |
-| Void | `15.2.0` | ✅ latest |
-| Alpine edge | `15.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `15.2.0` | ✅ latest |
-
 ## 改进这些数据
 
 ripgrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `ripgrep` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -125,4 +106,4 @@ ripgrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T06:14:48Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:32:05Z._

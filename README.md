@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 68,216 · **Forks**: 2,762 · **Open issues**: 1,825 · **Contributors**: 444
+- **Stars**: 68,235 · **Forks**: 2,764 · **Open issues**: 1,827 · **Contributors**: 444
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 571 · **Open PRs**: 71 · **Closed issues**: 1703 · **Open issues**: 122 · **Commits**: 2287
+- **Releases**: 75 · **Merged PRs**: 571 · **Open PRs**: 71 · **Closed issues**: 1703 · **Open issues**: 124 · **Commits**: 2287
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 12 | 1 | 5 | 0 |
-| last60d | 2026-07-15 | 1 | 12 | 25 | 7 | 11 | 34 |
-| 90d | 2026-06-15 | 1 | 21 | 29 | 11 | 14 | 59 |
-| last180d | 2026-03-17 | 1 | 26 | 57 | 21 | 29 | 70 |
-| 360d | 2025-09-18 | 3 | 54 | 71 | 64 | 42 | 161 |
-| last720d | 2024-09-23 | 3 | 62 | 71 | 158 | 49 | 239 |
+| 30d | 2026-08-15 | 0 | 0 | 12 | 1 | 7 | 0 |
+| last60d | 2026-07-16 | 0 | 8 | 25 | 6 | 13 | 9 |
+| 90d | 2026-06-16 | 1 | 21 | 29 | 11 | 16 | 57 |
+| last180d | 2026-03-18 | 1 | 26 | 57 | 21 | 31 | 69 |
+| 360d | 2025-09-19 | 3 | 53 | 71 | 64 | 44 | 148 |
+| last720d | 2024-09-24 | 3 | 62 | 71 | 158 | 51 | 239 |
 
 ## Release assets
 
@@ -97,25 +97,6 @@ Lowest-scoring checks:
 | [ripgrep_15.2.0-1_amd64.deb](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb) | 1.6 MiB | `runtime/deb/amd64` |
 | [ripgrep_15.2.0-1_amd64.deb.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb.sha256) | 93 B | `other` |
 
-## Distribution status
-
-Reported by **186** distros on [repology.org](https://repology.org/project/ripgrep). **63** are ✅ on the latest upstream release, **109** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `15.2.0` | ✅ latest |
-| Debian 14 | `15.2.0` | ✅ latest |
-| Debian 13 | `14.1.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `15.1.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `14.1.0` | ⚠️ outdated |
-| Arch | `15.2.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `15.2.0` | ✅ latest |
-| Nix unstable | `15.2.0` | ✅ latest |
-| Void | `15.2.0` | ✅ latest |
-| Alpine edge | `15.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `15.2.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ripgrep` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -125,4 +106,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:14:47Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:32:04Z._
