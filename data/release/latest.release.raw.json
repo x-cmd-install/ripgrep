@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1764284,
       "digest": "sha256:3750b2e93f37e0c692657da574d7019a101c0084da05a790c83fd335bad973e4",
-      "download_count": 505201,
+      "download_count": 514123,
       "created_at": "2026-07-15T16:09:13Z",
       "updated_at": "2026-07-15T16:09:13Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-apple-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 109,
       "digest": "sha256:6548307715b72f409e4a2667fb1fc435822a2561a27445971b0925183313ebad",
-      "download_count": 18099,
+      "download_count": 18264,
       "created_at": "2026-07-15T16:09:13Z",
       "updated_at": "2026-07-15T16:09:13Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-apple-darwin.tar.gz.sha256"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1640124,
       "digest": "sha256:e4abca10c3a64ebea742667dd7009449d49403db5460dd6873e389fa2945360f",
-      "download_count": 73336,
+      "download_count": 74268,
       "created_at": "2026-07-15T16:10:09Z",
       "updated_at": "2026-07-15T16:10:09Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-pc-windows-msvc.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 179,
       "digest": "sha256:49f07d6468add5aff10cf8595155f7c8adbca460a4be85fca23c4d89ff619a62",
-      "download_count": 2789,
+      "download_count": 2815,
       "created_at": "2026-07-15T16:10:09Z",
       "updated_at": "2026-07-15T16:10:09Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-pc-windows-msvc.zip.sha256"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1854661,
       "digest": "sha256:a740b91c82eaf9914cfedd353572f2791cbe0162c84101ee0951058f4dcbc90d",
-      "download_count": 489060,
+      "download_count": 497796,
       "created_at": "2026-07-15T16:10:03Z",
       "updated_at": "2026-07-15T16:10:04Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 114,
       "digest": "sha256:7b3f20fe255204e11cdb79fbca5ef7ccff1a10cb4bef53b3a5add996e1792105",
-      "download_count": 7640,
+      "download_count": 7681,
       "created_at": "2026-07-15T16:10:03Z",
       "updated_at": "2026-07-15T16:10:03Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz.sha256"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1982561,
       "digest": "sha256:800b1e7206afe799dfb5a6901f23147cfaabe0e52210538100f61e86e1740915",
-      "download_count": 27704,
+      "download_count": 28421,
       "created_at": "2026-07-15T16:10:39Z",
       "updated_at": "2026-07-15T16:10:39Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-musl.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 115,
       "digest": "sha256:e66ededb816781dbb3ea585e097cd3d1b72e3fb60ee0291c650c1867ec7be73c",
-      "download_count": 2184,
+      "download_count": 2213,
       "created_at": "2026-07-15T16:10:39Z",
       "updated_at": "2026-07-15T16:10:39Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-musl.tar.gz.sha256"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1811537,
       "digest": "sha256:d859589734d9d802107ad9eff6a78cfd9b0080d2fecb0ad8772605b35e373199",
-      "download_count": 691,
+      "download_count": 698,
       "created_at": "2026-07-15T16:10:14Z",
       "updated_at": "2026-07-15T16:10:14Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-gnueabihf.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 118,
       "digest": "sha256:ded53f7376d67215efbfd0fac11abc2e0f0bfd98c3154369f893172aeab8dd9e",
-      "download_count": 885,
+      "download_count": 900,
       "created_at": "2026-07-15T16:10:14Z",
       "updated_at": "2026-07-15T16:10:14Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 1830011,
       "digest": "sha256:c9617116c02d4cf4f000e156890aed79979aa6d2f6347925aea5a61c1b0eab87",
-      "download_count": 330,
+      "download_count": 391,
       "created_at": "2026-07-15T16:10:20Z",
       "updated_at": "2026-07-15T16:10:20Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-musleabi.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 117,
       "digest": "sha256:aa6b4085cc029744132ada9b88c58901700985d01090eff32c8202c9c58c4a7e",
-      "download_count": 663,
+      "download_count": 677,
       "created_at": "2026-07-15T16:10:20Z",
       "updated_at": "2026-07-15T16:10:20Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-musleabi.tar.gz.sha256"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 1826012,
       "digest": "sha256:0332b481aa007969a54d5c19e793208e73405c48d38f226bdee56b9ed085cdde",
-      "download_count": 4738,
+      "download_count": 4763,
       "created_at": "2026-07-15T16:10:09Z",
       "updated_at": "2026-07-15T16:10:09Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-musleabihf.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 119,
       "digest": "sha256:1a30b800f54947aa654fca64d4bae69f2e44e12aa68c05dd153640c648e36e04",
-      "download_count": 711,
+      "download_count": 726,
       "created_at": "2026-07-15T16:10:09Z",
       "updated_at": "2026-07-15T16:10:09Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-musleabihf.tar.gz.sha256"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 1642641,
       "digest": "sha256:9bf73bdb3fda9ad4b0235e1295b02c717031c986afa4d7c05dd0af8b74010a95",
-      "download_count": 1951,
+      "download_count": 1995,
       "created_at": "2026-07-15T16:10:24Z",
       "updated_at": "2026-07-15T16:10:24Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-i686-pc-windows-msvc.zip"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 176,
       "digest": "sha256:a039d831f19e86a7d08b188f86909406448fba98491dda5ad631c201072bd843",
-      "download_count": 731,
+      "download_count": 746,
       "created_at": "2026-07-15T16:10:24Z",
       "updated_at": "2026-07-15T16:10:24Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-i686-pc-windows-msvc.zip.sha256"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 2243230,
       "digest": "sha256:b61a442344f0591321960def6adb8c828b68a448301d1ed93959656fcd3b79c2",
-      "download_count": 716,
+      "download_count": 725,
       "created_at": "2026-07-15T16:10:14Z",
       "updated_at": "2026-07-15T16:10:15Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-s390x-unknown-linux-gnu.tar.gz"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 112,
       "digest": "sha256:8f0607f2874a87379c43452cc30941ef5bcc92ed9d7a3dce70a970ec522052a0",
-      "download_count": 683,
+      "download_count": 697,
       "created_at": "2026-07-15T16:10:14Z",
       "updated_at": "2026-07-15T16:10:14Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-s390x-unknown-linux-gnu.tar.gz.sha256"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 1878284,
       "digest": "sha256:af7825fcc69a2afc7a7aea55fc9af90e26421d8f20fe59df32e233c0b8a231c1",
-      "download_count": 93667,
+      "download_count": 95242,
       "created_at": "2026-07-15T16:10:03Z",
       "updated_at": "2026-07-15T16:10:04Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-apple-darwin.tar.gz"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 108,
       "digest": "sha256:0c9d82a923b253a32a2cbae3542d8a3bc0fda74d4908d5967f834b38a3fb647f",
-      "download_count": 8059,
+      "download_count": 8094,
       "created_at": "2026-07-15T16:10:03Z",
       "updated_at": "2026-07-15T16:10:04Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-apple-darwin.tar.gz.sha256"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 1878957,
       "digest": "sha256:5dbdc225a3ce064314fc05b6de8423a08a7b681764c1a276ff8263feaf68c7d6",
-      "download_count": 7084,
+      "download_count": 7197,
       "created_at": "2026-07-15T16:10:58Z",
       "updated_at": "2026-07-15T16:10:58Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-gnu.zip"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 177,
       "digest": "sha256:6437d77c015df0ec2c430a55e84f28dc3c5dad26f9320fb056158efb8d21518a",
-      "download_count": 813,
+      "download_count": 885,
       "created_at": "2026-07-15T16:10:58Z",
       "updated_at": "2026-07-15T16:10:58Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-gnu.zip.sha256"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 1789611,
       "digest": "sha256:71b2fef860abe467217a538ff31de02f5258807c0129f771846f87bd029aafc5",
-      "download_count": 1142243,
+      "download_count": 1160135,
       "created_at": "2026-07-15T16:10:07Z",
       "updated_at": "2026-07-15T16:10:07Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-msvc.zip"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 178,
       "digest": "sha256:6e4996a007228048b4bca2bb81b24642d9bc091caa6d19698eab1e8120617b18",
-      "download_count": 13058,
+      "download_count": 13332,
       "created_at": "2026-07-15T16:10:07Z",
       "updated_at": "2026-07-15T16:10:07Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-msvc.zip.sha256"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 2265718,
       "digest": "sha256:33e15bcf1624b25cdd2a55813a47a2f95dbe126268203e76aa6a585d1e7b149c",
-      "download_count": 1418134,
+      "download_count": 1444702,
       "created_at": "2026-07-15T16:10:43Z",
       "updated_at": "2026-07-15T16:10:44Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 114,
       "digest": "sha256:650080eb90718156132c821d150d8b74818f66de47969e38eef5a2dce3e2a5e6",
-      "download_count": 23321,
+      "download_count": 23549,
       "created_at": "2026-07-15T16:10:43Z",
       "updated_at": "2026-07-15T16:10:44Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz.sha256"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 1703492,
       "digest": "sha256:5af93eebe4c352474632cf1d28523b0e98bcd4e2f115a249a713b8d8c7d1d01c",
-      "download_count": 9362,
+      "download_count": 9500,
       "created_at": "2026-07-15T16:10:46Z",
       "updated_at": "2026-07-15T16:10:47Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 93,
       "digest": "sha256:8a6eac3409a8d523f982e54cd857cf582906f6c4c076028ea8c46b50613f3972",
-      "download_count": 1724,
+      "download_count": 1750,
       "created_at": "2026-07-15T16:10:46Z",
       "updated_at": "2026-07-15T16:10:46Z",
       "browser_download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb.sha256"
