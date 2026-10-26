@@ -26,13 +26,13 @@ Total: **42,949** lines of code across **122** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.7 / 10**
+Overall score: **5 / 10**
 
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (2/10) — Found 6/23 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 69,415 · **Forks**: 5,129 · **Open issues**: 1,834 · **Contributors**: 447
+- **Stars**: 69,452 · **Forks**: 4,754 · **Open issues**: 1,834 · **Contributors**: 446
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 582 · **Open PRs**: 84 · **Closed issues**: 1709 · **Open issues**: 125 · **Commits**: 2298
+- **Releases**: 75 · **Merged PRs**: 582 · **Open PRs**: 86 · **Closed issues**: 1709 · **Open issues**: 125 · **Commits**: 2298
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 10 | 10 | 2 | 3 | 11 |
-| last60d | 2026-08-26 | 0 | 10 | 25 | 3 | 9 | 11 |
-| 90d | 2026-07-27 | 0 | 14 | 36 | 9 | 11 | 18 |
-| last180d | 2026-04-28 | 1 | 37 | 47 | 22 | 22 | 79 |
-| 360d | 2025-10-30 | 1 | 42 | 84 | 46 | 46 | 95 |
-| last720d | 2024-11-04 | 3 | 73 | 84 | 157 | 53 | 249 |
+| 30d | 2026-09-26 | 0 | 10 | 12 | 2 | 3 | 11 |
+| last60d | 2026-08-27 | 0 | 10 | 27 | 3 | 9 | 11 |
+| 90d | 2026-07-28 | 0 | 13 | 38 | 9 | 11 | 16 |
+| last180d | 2026-04-29 | 1 | 37 | 49 | 22 | 22 | 79 |
+| 360d | 2025-10-31 | 1 | 42 | 86 | 46 | 46 | 92 |
+| last720d | 2024-11-05 | 3 | 73 | 86 | 157 | 53 | 249 |
 
 ## Release assets
 
@@ -99,7 +99,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **178** distros on [repology.org](https://repology.org/project/ripgrep). **67** are ✅ on the latest upstream release, **96** are ⚠️ on an older version.
+Reported by **179** distros on [repology.org](https://repology.org/project/ripgrep). **67** are ✅ on the latest upstream release, **97** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -125,4 +125,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:33:21Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:38:55Z._

@@ -26,13 +26,13 @@ x install ripgrep
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.7 / 10**
+总评分: **5 / 10**
 
 评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (2/10) — Found 6/23 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## 源代码
 
@@ -47,22 +47,22 @@ x install ripgrep
 
 ## 流行度
 
-- **Star**: 69,415 · **Fork**: 5,129 · **开放 issue**: 1,834 · **贡献者**: 447
+- **Star**: 69,452 · **Fork**: 4,754 · **开放 issue**: 1,834 · **贡献者**: 446
 
 ## 累计统计
 
-- **发布数**: 75 · **已合并 PR**: 582 · **开放 PR**: 84 · **已关闭 issue**: 1709 · **开放 issue**: 125 · **提交数**: 2298
+- **发布数**: 75 · **已合并 PR**: 582 · **开放 PR**: 86 · **已关闭 issue**: 1709 · **开放 issue**: 125 · **提交数**: 2298
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 10 | 10 | 2 | 3 | 11 |
-| last60d | 2026-08-26 | 0 | 10 | 25 | 3 | 9 | 11 |
-| 90d | 2026-07-27 | 0 | 14 | 36 | 9 | 11 | 18 |
-| last180d | 2026-04-28 | 1 | 37 | 47 | 22 | 22 | 79 |
-| 360d | 2025-10-30 | 1 | 42 | 84 | 46 | 46 | 95 |
-| last720d | 2024-11-04 | 3 | 73 | 84 | 157 | 53 | 249 |
+| 30d | 2026-09-26 | 0 | 10 | 12 | 2 | 3 | 11 |
+| last60d | 2026-08-27 | 0 | 10 | 27 | 3 | 9 | 11 |
+| 90d | 2026-07-28 | 0 | 13 | 38 | 9 | 11 | 16 |
+| last180d | 2026-04-29 | 1 | 37 | 49 | 22 | 22 | 79 |
+| 360d | 2025-10-31 | 1 | 42 | 86 | 46 | 46 | 92 |
+| last720d | 2024-11-05 | 3 | 73 | 86 | 157 | 53 | 249 |
 
 ## Release 资产
 
@@ -99,7 +99,7 @@ x install ripgrep
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ripgrep) 上共有 **178** 个发行版报告此项目。**67** 个 ✅ 已是最新上游版本，**96** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ripgrep) 上共有 **179** 个发行版报告此项目。**67** 个 ✅ 已是最新上游版本，**97** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -125,4 +125,4 @@ ripgrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261025.yml` · 2026-10-25T05:33:21Z._
+_数据快照: `data/card/261026.yml` · 2026-10-26T05:38:56Z._
