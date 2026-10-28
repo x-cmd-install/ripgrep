@@ -14,11 +14,11 @@ x install ripgrep
 
 ## Code insight
 
-Total: **42,949** lines of code across **122** files in the top 5 languages.
+Total: **43,087** lines of code across **122** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 40,202 | 2,817 | 4,789 | 102 |
+| Rust | 40,340 | 2,815 | 4,799 | 102 |
 | Python | 1,143 | 45 | 158 | 2 |
 | Yaml | 658 | 69 | 58 | 5 |
 | Zsh | 378 | 235 | 92 | 1 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `15.2.0` (2026-07-15)
-- **Last commit**: 2026-10-23
+- **Last commit**: 2026-10-27
 - **Assets in release**: 28
 
 ## Popularity
 
-- **Stars**: 69,482 · **Forks**: 4,765 · **Open issues**: 1,834 · **Contributors**: 446
+- **Stars**: 69,517 · **Forks**: 4,784 · **Open issues**: 1,834 · **Contributors**: 447
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 582 · **Open PRs**: 87 · **Closed issues**: 1709 · **Open issues**: 125 · **Commits**: 2298
+- **Releases**: 75 · **Merged PRs**: 585 · **Open PRs**: 86 · **Closed issues**: 1709 · **Open issues**: 125 · **Commits**: 2303
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 10 | 13 | 2 | 3 | 11 |
-| last60d | 2026-08-28 | 0 | 10 | 27 | 3 | 9 | 11 |
-| 90d | 2026-07-29 | 0 | 12 | 38 | 9 | 11 | 16 |
-| last180d | 2026-04-30 | 1 | 37 | 50 | 22 | 22 | 79 |
-| 360d | 2025-11-01 | 1 | 42 | 87 | 45 | 45 | 92 |
-| last720d | 2024-11-06 | 3 | 73 | 87 | 157 | 53 | 249 |
+| 30d | 2026-09-28 | 0 | 13 | 12 | 2 | 3 | 16 |
+| last60d | 2026-08-29 | 0 | 13 | 26 | 3 | 9 | 16 |
+| 90d | 2026-07-30 | 0 | 15 | 37 | 7 | 11 | 21 |
+| last180d | 2026-05-01 | 1 | 40 | 48 | 22 | 22 | 84 |
+| 360d | 2025-11-02 | 1 | 45 | 86 | 45 | 45 | 97 |
+| last720d | 2024-11-07 | 3 | 76 | 86 | 155 | 53 | 254 |
 
 ## Release assets
 
@@ -125,4 +125,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T06:07:15Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:42:45Z._
