@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 69,517 · **Forks**: 4,784 · **Open issues**: 1,834 · **Contributors**: 447
+- **Stars**: 69,550 · **Forks**: 4,800 · **Open issues**: 1,834 · **Contributors**: 447
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 0 | 13 | 12 | 2 | 3 | 16 |
-| last60d | 2026-08-29 | 0 | 13 | 26 | 3 | 9 | 16 |
-| 90d | 2026-07-30 | 0 | 15 | 37 | 7 | 11 | 21 |
-| last180d | 2026-05-01 | 1 | 40 | 48 | 22 | 22 | 84 |
-| 360d | 2025-11-02 | 1 | 45 | 86 | 45 | 45 | 97 |
-| last720d | 2024-11-07 | 3 | 76 | 86 | 155 | 53 | 254 |
+| 30d | 2026-09-29 | 0 | 13 | 12 | 2 | 3 | 16 |
+| last60d | 2026-08-30 | 0 | 13 | 26 | 3 | 9 | 16 |
+| 90d | 2026-07-31 | 0 | 15 | 37 | 7 | 11 | 21 |
+| last180d | 2026-05-02 | 1 | 40 | 48 | 22 | 22 | 84 |
+| 360d | 2025-11-03 | 1 | 45 | 86 | 45 | 45 | 97 |
+| last720d | 2024-11-08 | 3 | 76 | 86 | 154 | 53 | 254 |
 
 ## Release assets
 
@@ -99,7 +99,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **179** distros on [repology.org](https://repology.org/project/ripgrep). **67** are ✅ on the latest upstream release, **97** are ⚠️ on an older version.
+Reported by **179** distros on [repology.org](https://repology.org/project/ripgrep). **68** are ✅ on the latest upstream release, **96** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -125,4 +125,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T06:42:45Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T06:50:54Z._
