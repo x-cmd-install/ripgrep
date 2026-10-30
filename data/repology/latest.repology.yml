@@ -1,11 +1,55 @@
-- repo: baulk
-  srcname: ripgrep
-  binname: ripgrep
+- repo: pardus_21
+  subrepo: main
+  srcname: rust-ripgrep
+  binnames:
+    - ripgrep
+  visiblename: rust-ripgrep
+  version: 12.1.1
+  origversion: 12.1.1-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rust-ripgrep
+  binnames:
+    - ripgrep
+  visiblename: rust-ripgrep
+  version: 14.1.1
+  origversion: 14.1.1-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-ripgrep
+  binnames:
+    - ripgrep
+  visiblename: rust-ripgrep
+  version: 14.1.1
+  origversion: 14.1.1-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - utils
+- repo: wikidata
+  srcname: Q91665055
   visiblename: ripgrep
   version: 15.2.0
   origversion: null
   status: newest
-  summary: ripgrep recursively searches directories for a regex pattern.
+  summary: line-oriented search tool
+  licenses:
+    - Expat license
+    - Unlicense
 - repo: chimera
   subrepo: user
   srcname: ripgrep
@@ -15,6 +59,58 @@
   origversion: 15.2.0-r0
   status: newest
   summary: Recursive grep-like tool
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_18
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-fish-completion
+  visiblename: ripgrep-fish-completion
+  version: 13.0.0
+  origversion: 13.0.0-r3
+  status: outdated
+  summary: Fish completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Public-Domain
+- repo: alpine_3_18
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-zsh-completion
+  visiblename: ripgrep-zsh-completion
+  version: 13.0.0
+  origversion: 13.0.0-r3
+  status: outdated
+  summary: Zsh completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Public-Domain
+- repo: alpine_3_19
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep
+  visiblename: ripgrep
+  version: 14.0.3
+  origversion: 14.0.3-r0
+  status: outdated
+  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_19
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-bash-completion
+  visiblename: ripgrep-bash-completion
+  version: 14.0.3
+  origversion: 14.0.3-r0
+  status: outdated
+  summary: Bash completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
   licenses:
     - MIT OR Unlicense
 - repo: adelie_current
@@ -167,58 +263,14 @@
     - aklitzing@gmail.com
   licenses:
     - MIT OR Public-Domain
-- repo: alpine_3_18
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-fish-completion
-  visiblename: ripgrep-fish-completion
-  version: 13.0.0
-  origversion: 13.0.0-r3
-  status: outdated
-  summary: Fish completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Public-Domain
-- repo: alpine_3_18
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-zsh-completion
-  visiblename: ripgrep-zsh-completion
-  version: 13.0.0
-  origversion: 13.0.0-r3
-  status: outdated
-  summary: Zsh completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Public-Domain
-- repo: alpine_3_19
-  subrepo: community
+- repo: baulk
   srcname: ripgrep
   binname: ripgrep
   visiblename: ripgrep
-  version: 14.0.3
-  origversion: 14.0.3-r0
-  status: outdated
-  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_19
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-bash-completion
-  visiblename: ripgrep-bash-completion
-  version: 14.0.3
-  origversion: 14.0.3-r0
-  status: outdated
-  summary: Bash completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
+  version: 15.2.0
+  origversion: null
+  status: newest
+  summary: ripgrep recursively searches directories for a regex pattern.
 - repo: alpine_3_19
   subrepo: community
   srcname: ripgrep
@@ -306,6 +358,243 @@
   origversion: 14.1.0-r0
   status: outdated
   summary: Fish completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_20
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-zsh-completion
+  visiblename: ripgrep-zsh-completion
+  version: 14.1.0
+  origversion: 14.1.0-r0
+  status: outdated
+  summary: Zsh completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_21
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep
+  visiblename: ripgrep
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_21
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-bash-completion
+  visiblename: ripgrep-bash-completion
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: Bash completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_21
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-doc
+  visiblename: ripgrep-doc
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_21
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-fish-completion
+  visiblename: ripgrep-fish-completion
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: Fish completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_21
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-zsh-completion
+  visiblename: ripgrep-zsh-completion
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: Zsh completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_22
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep
+  visiblename: ripgrep
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_22
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-bash-completion
+  visiblename: ripgrep-bash-completion
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: Bash completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: altsisyphus
+  srcname: ripgrep
+  binnames:
+    - ripgrep
+    - ripgrep-debuginfo
+  visiblename: ripgrep
+  version: 15.2.0
+  origversion: 15.2.0-alt1
+  status: newest
+  summary: Recursively searches directories for a regex pattern
+  maintainers:
+    - amakeenk@altlinux.org
+  licenses:
+    - MIT and Unlicense
+  categories:
+    - File tools
+- repo: alpine_3_22
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-doc
+  visiblename: ripgrep-doc
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_22
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-fish-completion
+  visiblename: ripgrep-fish-completion
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: Fish completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_22
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-zsh-completion
+  visiblename: ripgrep-zsh-completion
+  version: 14.1.1
+  origversion: 14.1.1-r0
+  status: outdated
+  summary: Zsh completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_23
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep
+  visiblename: ripgrep
+  version: 15.1.0
+  origversion: 15.1.0-r0
+  status: outdated
+  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_23
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-bash-completion
+  visiblename: ripgrep-bash-completion
+  version: 15.1.0
+  origversion: 15.1.0-r0
+  status: outdated
+  summary: Bash completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_23
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-doc
+  visiblename: ripgrep-doc
+  version: 15.1.0
+  origversion: 15.1.0-r0
+  status: outdated
+  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_23
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-fish-completion
+  visiblename: ripgrep-fish-completion
+  version: 15.1.0
+  origversion: 15.1.0-r0
+  status: outdated
+  summary: Fish completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_23
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep-zsh-completion
+  visiblename: ripgrep-zsh-completion
+  version: 15.1.0
+  origversion: 15.1.0-r0
+  status: outdated
+  summary: Zsh completions for ripgrep
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT OR Unlicense
+- repo: alpine_3_24
+  subrepo: community
+  srcname: ripgrep
+  binname: ripgrep
+  visiblename: ripgrep
+  version: 15.1.0
+  origversion: 15.1.0-r0
+  status: outdated
+  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
   maintainers:
     - aklitzing@gmail.com
   licenses:
@@ -322,238 +611,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: alpine_3_20
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-zsh-completion
-  visiblename: ripgrep-zsh-completion
-  version: 14.1.0
-  origversion: 14.1.0-r0
-  status: outdated
-  summary: Zsh completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_21
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep
-  visiblename: ripgrep
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_21
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-bash-completion
-  visiblename: ripgrep-bash-completion
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: Bash completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_21
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-doc
-  visiblename: ripgrep-doc
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep (documentation)
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_21
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-fish-completion
-  visiblename: ripgrep-fish-completion
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: Fish completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_21
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-zsh-completion
-  visiblename: ripgrep-zsh-completion
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: Zsh completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_22
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep
-  visiblename: ripgrep
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_22
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-bash-completion
-  visiblename: ripgrep-bash-completion
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: Bash completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_22
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-doc
-  visiblename: ripgrep-doc
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep (documentation)
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: arch
-  subrepo: extra
-  srcname: ripgrep
-  binname: ripgrep
-  visiblename: ripgrep
-  version: 15.2.0
-  origversion: 15.2.0-1
-  status: newest
-  summary: A search tool that combines the usability of ag with the raw speed of grep
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_22
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-fish-completion
-  visiblename: ripgrep-fish-completion
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: Fish completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_22
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-zsh-completion
-  visiblename: ripgrep-zsh-completion
-  version: 14.1.1
-  origversion: 14.1.1-r0
-  status: outdated
-  summary: Zsh completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_23
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep
-  visiblename: ripgrep
-  version: 15.1.0
-  origversion: 15.1.0-r0
-  status: outdated
-  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_23
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-bash-completion
-  visiblename: ripgrep-bash-completion
-  version: 15.1.0
-  origversion: 15.1.0-r0
-  status: outdated
-  summary: Bash completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_23
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-doc
-  visiblename: ripgrep-doc
-  version: 15.1.0
-  origversion: 15.1.0-r0
-  status: outdated
-  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep (documentation)
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_23
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-fish-completion
-  visiblename: ripgrep-fish-completion
-  version: 15.1.0
-  origversion: 15.1.0-r0
-  status: outdated
-  summary: Fish completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_23
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep-zsh-completion
-  visiblename: ripgrep-zsh-completion
-  version: 15.1.0
-  origversion: 15.1.0-r0
-  status: outdated
-  summary: Zsh completions for ripgrep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
-- repo: alpine_3_24
-  subrepo: community
-  srcname: ripgrep
-  binname: ripgrep
-  visiblename: ripgrep
-  version: 15.1.0
-  origversion: 15.1.0-r0
-  status: outdated
-  summary: ripgrep combines the usability of The Silver Searcher with the raw speed of grep
-  maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT OR Unlicense
 - repo: alpine_3_24
   subrepo: community
   srcname: ripgrep
@@ -567,19 +624,6 @@
     - aklitzing@gmail.com
   licenses:
     - MIT OR Unlicense
-- repo: aur
-  srcname: ripgrep-git
-  binname: ripgrep-git
-  visiblename: ripgrep-git
-  version: 15.1.0.r4.57c190d5
-  origversion: 15.1.0.r4.57c190d5-1
-  status: rolling
-  summary: A search tool that combines the usability of The Silver Searcher with the raw speed of grep.
-  maintainers:
-    - ilovemikael@aur
-  licenses:
-    - MIT
-    - Unlicense
 - repo: alpine_3_24
   subrepo: community
   srcname: ripgrep
@@ -700,23 +744,21 @@
     - MIT and Unlicense
   categories:
     - File tools
-- repo: altsisyphus
-  srcname: ripgrep
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-ripgrep
   binnames:
     - ripgrep
-    - ripgrep-debuginfo
-  visiblename: ripgrep
+  visiblename: rust-ripgrep
   version: 15.2.0
-  origversion: 15.2.0-alt1
+  origversion: 15.2.0-1
   status: newest
-  summary: Recursively searches directories for a regex pattern
   maintainers:
-    - amakeenk@altlinux.org
-  licenses:
-    - MIT and Unlicense
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
   categories:
-    - File tools
-- repo: manjaro_unstable
+    - misc
+- repo: arch
   subrepo: extra
   srcname: ripgrep
   binname: ripgrep
@@ -727,6 +769,19 @@
   summary: A search tool that combines the usability of ag with the raw speed of grep
   licenses:
     - MIT OR Unlicense
+- repo: aur
+  srcname: ripgrep-git
+  binname: ripgrep-git
+  visiblename: ripgrep-git
+  version: 15.1.0.r4.57c190d5
+  origversion: 15.1.0.r4.57c190d5-1
+  status: rolling
+  summary: A search tool that combines the usability of The Silver Searcher with the raw speed of grep.
+  maintainers:
+    - ilovemikael@aur
+  licenses:
+    - MIT
+    - Unlicense
 - repo: artix
   subrepo: world
   srcname: ripgrep
@@ -819,6 +874,15 @@
     ripgrep is a line-oriented search tool that recursively searches the current
     directory for a regex pattern while respecting gitignore rules. ripgrep has
     first class support on Windows, macOS and Linux.
+- repo: kiss_community
+  subrepo: community
+  srcname: ripgrep
+  visiblename: ripgrep
+  version: 13.0.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - jslick@gmail.com
 - repo: crux_37
   subrepo: contrib
   srcname: ripgrep
@@ -839,17 +903,6 @@
   summary: ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern
   maintainers:
     - tbier@posteo.de
-- repo: openindiana
-  subrepo: hipster
-  srcname: ripgrep
-  binname: text/ripgrep
-  visiblename: ripgrep
-  version: 15.1.0
-  origversion: null
-  status: legacy
-  summary: ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern while respecting gitignore rules.
-  categories:
-    - Applications/System Utilities
 - repo: debian_11
   subrepo: bullseye/main
   srcname: rust-ripgrep
@@ -1012,7 +1065,7 @@
     - Unlicense OR MIT
   categories:
     - Unspecified
-- repo: manjaro_testing
+- repo: manjaro_unstable
   subrepo: extra
   srcname: ripgrep
   binname: ripgrep
@@ -1038,17 +1091,6 @@
     - Unlicense OR MIT
   categories:
     - Unspecified
-- repo: openindiana
-  subrepo: hipster
-  srcname: ripgrep
-  binname: text/ripgrep
-  visiblename: ripgrep
-  version: 15.2.0
-  origversion: null
-  status: newest
-  summary: ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern while respecting gitignore rules.
-  categories:
-    - Applications/System Utilities
 - repo: exherbo
   subrepo: rust
   srcname: dev-rust/ripgrep
@@ -1206,22 +1248,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: rust-ripgrep
-  binnames:
-    - ripgrep
-    - rust-ripgrep-debuginfo
-    - rust-ripgrep-debugsource
-  visiblename: rust-ripgrep
-  version: 15.2.0
-  origversion: 15.2.0-1.fc44
-  status: newest
-  summary: Line-oriented search tool
-  licenses:
-    - Unlicense OR MIT
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: rust-ripgrep
   binnames:
@@ -1232,6 +1258,22 @@
   version: 14.1.1
   origversion: 14.1.1-4.fc44
   status: legacy
+  summary: Line-oriented search tool
+  licenses:
+    - Unlicense OR MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-ripgrep
+  binnames:
+    - ripgrep
+    - rust-ripgrep-debuginfo
+    - rust-ripgrep-debugsource
+  visiblename: rust-ripgrep
+  version: 15.2.0
+  origversion: 15.2.0-1.fc44
+  status: newest
   summary: Line-oriented search tool
   licenses:
     - Unlicense OR MIT
@@ -1291,6 +1333,18 @@
   summary: line-oriented search tool that recursively searches your current directory for a regex pattern (mingw-w64)
   licenses:
     - spdx:MIT OR Unlicense
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: ripgrep
+  visiblename: ripgrep
+  version: 13.0.0
+  origversion: 13.0.0-bp156.4.13
+  status: outdated
+  summary: A search tool that combines ag with grep
+  licenses:
+    - MIT AND Unlicense
+  categories:
+    - Productivity/Text/Utilities
 - repo: gentoo
   srcname: sys-apps/ripgrep
   visiblename: sys-apps/ripgrep
@@ -1334,29 +1388,6 @@
   origversion: null
   status: rolling
   summary: Search tool like grep and The Silver Searcher
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-ripgrep
-  binnames:
-    - ripgrep
-  visiblename: rust-ripgrep
-  version: 15.2.0
-  origversion: 15.2.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: ripgrep
-  visiblename: ripgrep
-  version: 13.0.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - jslick@gmail.com
 - repo: liguros_stable
   srcname: sys-apps/ripgrep
   visiblename: sys-apps/ripgrep
@@ -1461,6 +1492,17 @@
   categories:
     - Development/Rust
 - repo: manjaro_stable
+  subrepo: extra
+  srcname: ripgrep
+  binname: ripgrep
+  visiblename: ripgrep
+  version: 15.2.0
+  origversion: 15.2.0-1
+  status: newest
+  summary: A search tool that combines the usability of ag with the raw speed of grep
+  licenses:
+    - MIT OR Unlicense
+- repo: manjaro_testing
   subrepo: extra
   srcname: ripgrep
   binname: ripgrep
@@ -1600,6 +1642,28 @@
     - Unlicense OR MIT
   categories:
     - Unspecified
+- repo: openindiana
+  subrepo: hipster
+  srcname: ripgrep
+  binname: text/ripgrep
+  visiblename: ripgrep
+  version: 15.1.0
+  origversion: null
+  status: legacy
+  summary: ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern while respecting gitignore rules.
+  categories:
+    - Applications/System Utilities
+- repo: openindiana
+  subrepo: hipster
+  srcname: ripgrep
+  binname: text/ripgrep
+  visiblename: ripgrep
+  version: 15.2.0
+  origversion: null
+  status: newest
+  summary: ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern while respecting gitignore rules.
+  categories:
+    - Applications/System Utilities
 - repo: openmamba
   subrepo: base
   srcname: ripgrep
@@ -1687,18 +1751,6 @@
     - MIT AND Unlicense
   categories:
     - Productivity/Text/Utilities
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: ripgrep
-  visiblename: ripgrep
-  version: 13.0.0
-  origversion: 13.0.0-bp156.4.13
-  status: outdated
-  summary: A search tool that combines ag with grep
-  licenses:
-    - MIT AND Unlicense
-  categories:
-    - Productivity/Text/Utilities
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: ripgrep
@@ -1753,48 +1805,6 @@
   summary: A search tool that combines the usability of ag with the raw speed of grep
   licenses:
     - MIT OR Unlicense
-- repo: pardus_21
-  subrepo: main
-  srcname: rust-ripgrep
-  binnames:
-    - ripgrep
-  visiblename: rust-ripgrep
-  version: 12.1.1
-  origversion: 12.1.1-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-ripgrep
-  binnames:
-    - ripgrep
-  visiblename: rust-ripgrep
-  version: 14.1.1
-  origversion: 14.1.1-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot/main
-  srcname: rust-ripgrep
-  binnames:
-    - ripgrep
-  visiblename: rust-ripgrep
-  version: 14.1.1
-  origversion: 14.1.1-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - misc
 - repo: pkgsrc_2026_2
   srcname: textproc/ripgrep
   binname: ripgrep
@@ -1982,16 +1992,6 @@
   origversion: null
   status: outdated
   summary: ripgrep (a line oriented search tool)
-- repo: wikidata
-  srcname: Q91665055
-  visiblename: ripgrep
-  version: 15.2.0
-  origversion: null
-  status: newest
-  summary: line-oriented search tool
-  licenses:
-    - Expat license
-    - Unlicense
 - repo: scoop
   subrepo: main
   binname: ripgrep
@@ -2001,6 +2001,24 @@
   status: newest
   licenses:
     - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: ripgrep
+  visiblename: ripgrep
+  version: 14.1.0
+  origversion: 14.1.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: ripgrep
+  visiblename: ripgrep
+  version: 14.0.3
+  origversion: 14.0.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: slackbuilds
   srcname: system/ripgrep
   visiblename: system/ripgrep
@@ -2267,24 +2285,6 @@
   visiblename: ripgrep
   version: 14.1.1
   origversion: 14.1.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: ripgrep
-  visiblename: ripgrep
-  version: 14.1.0
-  origversion: 14.1.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: ripgrep
-  visiblename: ripgrep
-  version: 14.0.3
-  origversion: 14.0.3-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
