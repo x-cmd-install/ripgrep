@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 69,600 · **Forks**: 4,192 · **Open issues**: 1,835 · **Contributors**: 447
+- **Stars**: 69,638 · **Forks**: 4,216 · **Open issues**: 1,836 · **Contributors**: 447
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 585 · **Open PRs**: 88 · **Closed issues**: 1709 · **Open issues**: 126 · **Commits**: 2303
+- **Releases**: 75 · **Merged PRs**: 585 · **Open PRs**: 89 · **Closed issues**: 1709 · **Open issues**: 127 · **Commits**: 2303
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 13 | 14 | 2 | 4 | 16 |
-| last60d | 2026-09-02 | 0 | 13 | 27 | 3 | 9 | 16 |
-| 90d | 2026-08-03 | 0 | 14 | 38 | 7 | 12 | 16 |
-| last180d | 2026-05-05 | 1 | 40 | 50 | 22 | 23 | 84 |
-| 360d | 2025-11-06 | 1 | 45 | 88 | 45 | 46 | 97 |
-| last720d | 2024-11-11 | 3 | 76 | 88 | 152 | 53 | 254 |
+| 30d | 2026-10-03 | 0 | 13 | 15 | 2 | 5 | 16 |
+| last60d | 2026-09-03 | 0 | 13 | 28 | 3 | 10 | 16 |
+| 90d | 2026-08-04 | 0 | 13 | 39 | 7 | 12 | 16 |
+| last180d | 2026-05-06 | 1 | 40 | 51 | 22 | 24 | 84 |
+| 360d | 2025-11-07 | 1 | 45 | 89 | 45 | 47 | 97 |
+| last720d | 2024-11-12 | 3 | 76 | 89 | 152 | 54 | 254 |
 
 ## Release assets
 
@@ -99,7 +99,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **178** distros on [repology.org](https://repology.org/project/ripgrep). **68** are ✅ on the latest upstream release, **95** are ⚠️ on an older version.
+Reported by **178** distros on [repology.org](https://repology.org/project/ripgrep). **66** are ✅ on the latest upstream release, **97** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -125,4 +125,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:00:14Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:16:39Z._
