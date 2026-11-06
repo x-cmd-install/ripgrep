@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 69,708 · **Forks**: 4,165 · **Open issues**: 1,838 · **Contributors**: 447
+- **Stars**: 69,750 · **Forks**: 4,169 · **Open issues**: 1,840 · **Contributors**: 447
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 585 · **Open PRs**: 92 · **Closed issues**: 1709 · **Open issues**: 129 · **Commits**: 2303
+- **Releases**: 75 · **Merged PRs**: 585 · **Open PRs**: 93 · **Closed issues**: 1709 · **Open issues**: 131 · **Commits**: 2303
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 13 | 18 | 1 | 7 | 16 |
-| last60d | 2026-09-06 | 0 | 13 | 29 | 3 | 12 | 16 |
-| 90d | 2026-08-07 | 0 | 13 | 39 | 7 | 14 | 16 |
-| last180d | 2026-05-09 | 1 | 40 | 54 | 21 | 26 | 84 |
-| 360d | 2025-11-10 | 1 | 45 | 92 | 45 | 49 | 97 |
-| last720d | 2024-11-15 | 3 | 76 | 92 | 150 | 56 | 254 |
+| 30d | 2026-10-07 | 0 | 13 | 18 | 1 | 9 | 16 |
+| last60d | 2026-09-07 | 0 | 13 | 28 | 3 | 12 | 16 |
+| 90d | 2026-08-08 | 0 | 13 | 39 | 7 | 15 | 16 |
+| last180d | 2026-05-10 | 1 | 40 | 55 | 21 | 28 | 84 |
+| 360d | 2025-11-11 | 1 | 45 | 93 | 45 | 51 | 97 |
+| last720d | 2024-11-16 | 3 | 76 | 93 | 150 | 57 | 254 |
 
 ## Release assets
 
@@ -125,4 +125,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:44:53Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:44:51Z._
