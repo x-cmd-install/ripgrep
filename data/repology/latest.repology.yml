@@ -38,14 +38,6 @@
     - sylvestre@debian.org
   categories:
     - misc
-- repo: haikuports_master
-  srcname: sys-apps/ripgrep
-  visiblename: sys-apps/ripgrep
-  version: 14.0.1
-  origversion: null
-  status: outdated
-  categories:
-    - sys-apps
 - repo: adelie_current
   subrepo: user
   srcname: ripgrep
@@ -1229,6 +1221,25 @@
     - petteri.valkonen@iki.fi
   categories:
     - textproc
+- repo: mageia_9
+  subrepo: core/release
+  srcname: ripgrep
+  binnames:
+    - ripgrep
+    - ripgrep-bash-completion
+    - ripgrep-fish-completion
+    - ripgrep-zsh-completion
+    - ripgrep-debuginfo
+    - ripgrep-debugsource
+  visiblename: ripgrep
+  version: 13.0.0
+  origversion: 13.0.0-2.mga9
+  status: outdated
+  summary: Recursively search directories for a regex pattern
+  licenses:
+    - Public Domain and MIT
+  categories:
+    - Text tools
 - repo: gentoo
   srcname: sys-apps/ripgrep
   visiblename: sys-apps/ripgrep
@@ -1266,6 +1277,14 @@
   origversion: null
   status: newest
   summary: Line-oriented search tool and Rust successor to @command{grep}
+- repo: haikuports_master
+  srcname: sys-apps/ripgrep
+  visiblename: sys-apps/ripgrep
+  version: 14.0.1
+  origversion: null
+  status: outdated
+  categories:
+    - sys-apps
 - repo: homebrew
   srcname: ripgrep
   visiblename: ripgrep
@@ -1316,20 +1335,6 @@
     - Apache-2.0 BSD MIT Unicode-DFS-2016 || ( Apache-2.0 Boost-1.0 )
   categories:
     - sys-apps
-- repo: nix_stable_26_05
-  srcname: ripgrep
-  visiblename: ripgrep
-  version: 15.1.0
-  origversion: null
-  status: outdated
-  summary: Utility that combines the usability of The Silver Searcher with the raw speed of grep
-  maintainers:
-    - mail@glob.in
-    - maximilian@mbosch.me
-    - zowoq@github
-  licenses:
-    - Unlicense
-    - MIT
 - repo: liguros_develop
   srcname: sys-apps/ripgrep
   visiblename: sys-apps/ripgrep
@@ -1373,25 +1378,6 @@
     - MIT
   categories:
     - textproc
-- repo: mageia_9
-  subrepo: core/release
-  srcname: ripgrep
-  binnames:
-    - ripgrep
-    - ripgrep-bash-completion
-    - ripgrep-fish-completion
-    - ripgrep-zsh-completion
-    - ripgrep-debuginfo
-    - ripgrep-debugsource
-  visiblename: ripgrep
-  version: 13.0.0
-  origversion: 13.0.0-2.mga9
-  status: outdated
-  summary: Recursively search directories for a regex pattern
-  licenses:
-    - Public Domain and MIT
-  categories:
-    - Text tools
 - repo: mageia_10
   subrepo: core/release
   srcname: rust-ripgrep
@@ -1425,25 +1411,23 @@
   srcname: ripgrep
   binname: ripgrep
   visiblename: ripgrep
-  version: 13.0.0
-  origversion: 13.0.0-3
-  status: outdated
+  version: 15.2.0
+  origversion: 15.2.0-1
+  status: newest
   summary: A search tool that combines the usability of ag with the raw speed of grep
   licenses:
-    - MIT
-    - custom
+    - MIT OR Unlicense
 - repo: manjaro_testing
   subrepo: extra
   srcname: ripgrep
   binname: ripgrep
   visiblename: ripgrep
-  version: 13.0.0
-  origversion: 13.0.0-3
-  status: outdated
+  version: 15.2.0
+  origversion: 15.2.0-1
+  status: newest
   summary: A search tool that combines the usability of ag with the raw speed of grep
   licenses:
-    - MIT
-    - custom
+    - MIT OR Unlicense
 - repo: manjaro_unstable
   subrepo: extra
   srcname: ripgrep
@@ -1460,7 +1444,7 @@
   binname: mingw-w64-clang-x86_64-ripgrep
   visiblename: mingw-w64-clang-x86_64-ripgrep
   version: 15.2.0
-  origversion: 15.2.0-1
+  origversion: 15.2.0-2
   status: newest
   summary: line-oriented search tool that recursively searches your current directory for a regex pattern (mingw-w64)
   licenses:
@@ -1470,7 +1454,7 @@
   binname: mingw-w64-clang-aarch64-ripgrep
   visiblename: mingw-w64-clang-aarch64-ripgrep
   version: 15.2.0
-  origversion: 15.2.0-1
+  origversion: 15.2.0-2
   status: newest
   summary: line-oriented search tool that recursively searches your current directory for a regex pattern (mingw-w64)
   licenses:
@@ -1480,7 +1464,7 @@
   binname: mingw-w64-ucrt-x86_64-ripgrep
   visiblename: mingw-w64-ucrt-x86_64-ripgrep
   version: 15.2.0
-  origversion: 15.2.0-1
+  origversion: 15.2.0-2
   status: newest
   summary: line-oriented search tool that recursively searches your current directory for a regex pattern (mingw-w64)
   licenses:
@@ -1528,6 +1512,20 @@
     - Unlicense
     - MIT
 - repo: nix_stable_25_11
+  srcname: ripgrep
+  visiblename: ripgrep
+  version: 15.1.0
+  origversion: null
+  status: outdated
+  summary: Utility that combines the usability of The Silver Searcher with the raw speed of grep
+  maintainers:
+    - mail@glob.in
+    - maximilian@mbosch.me
+    - zowoq@github
+  licenses:
+    - Unlicense
+    - MIT
+- repo: nix_stable_26_05
   srcname: ripgrep
   visiblename: ripgrep
   version: 15.1.0
@@ -1663,17 +1661,6 @@
     - MIT AND Unlicense
   categories:
     - Productivity/Text/Utilities
-- repo: openpkg_current
-  srcname: ripgrep
-  visiblename: ripgrep
-  version: 15.1.0
-  origversion: null
-  status: outdated
-  summary: Search Tool
-  licenses:
-    - MIT
-  categories:
-    - Filesystem
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: ripgrep
@@ -2198,6 +2185,20 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: rust-ripgrep
+  binnames:
+    - ripgrep
+  visiblename: rust-ripgrep
+  version: 15.2.0
+  origversion: 15.2.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: rust-ripgrep
   binnames:
     - ripgrep
