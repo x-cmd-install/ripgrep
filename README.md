@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 69,850 · **Forks**: 4,186 · **Open issues**: 1,841 · **Contributors**: 447
+- **Stars**: 69,887 · **Forks**: 4,192 · **Open issues**: 1,840 · **Contributors**: 447
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 585 · **Open PRs**: 93 · **Closed issues**: 1709 · **Open issues**: 132 · **Commits**: 2303
+- **Releases**: 75 · **Merged PRs**: 585 · **Open PRs**: 96 · **Closed issues**: 1711 · **Open issues**: 129 · **Commits**: 2303
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 13 | 18 | 1 | 10 | 16 |
-| last60d | 2026-09-08 | 0 | 13 | 27 | 3 | 13 | 16 |
-| 90d | 2026-08-09 | 0 | 13 | 39 | 7 | 16 | 16 |
-| last180d | 2026-05-11 | 1 | 40 | 55 | 21 | 29 | 84 |
-| 360d | 2025-11-12 | 1 | 45 | 93 | 44 | 52 | 97 |
-| last720d | 2024-11-17 | 3 | 76 | 93 | 150 | 58 | 254 |
+| 30d | 2026-10-09 | 0 | 13 | 21 | 3 | 7 | 16 |
+| last60d | 2026-09-09 | 0 | 13 | 30 | 5 | 10 | 16 |
+| 90d | 2026-08-10 | 0 | 13 | 42 | 8 | 13 | 16 |
+| last180d | 2026-05-12 | 1 | 40 | 58 | 23 | 26 | 84 |
+| 360d | 2025-11-13 | 1 | 45 | 95 | 46 | 49 | 97 |
+| last720d | 2024-11-18 | 3 | 76 | 96 | 152 | 55 | 254 |
 
 ## Release assets
 
@@ -109,7 +109,7 @@ Reported by **179** distros on [repology.org](https://repology.org/project/ripgr
 | Ubuntu 26.04 LTS | `15.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `14.1.0` | ⚠️ outdated |
 | Arch | `15.2.0` | ✅ latest |
-| Homebrew | `15.2.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `15.2.0` | ✅ latest |
 | Nix unstable | `15.2.0` | ✅ latest |
 | Void | `15.2.0` | ✅ latest |
@@ -125,4 +125,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T07:03:23Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:59:00Z._
