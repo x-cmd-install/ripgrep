@@ -14,13 +14,13 @@ x install ripgrep
 
 ## Code insight
 
-Total: **43,120** lines of code across **122** files in the top 5 languages.
+Total: **43,188** lines of code across **123** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 40,373 | 2,815 | 4,801 | 102 |
+| Rust | 40,417 | 2,816 | 4,803 | 102 |
 | Python | 1,143 | 45 | 158 | 2 |
-| Yaml | 658 | 69 | 58 | 5 |
+| Yaml | 682 | 69 | 58 | 6 |
 | Zsh | 378 | 235 | 92 | 1 |
 | Toml | 372 | 20 | 48 | 12 |
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `15.2.0` (2026-07-15)
-- **Last commit**: 2026-11-09
+- **Last commit**: 2026-11-18
 - **Assets in release**: 28
 
 ## Popularity
 
-- **Stars**: 70,001 · **Forks**: 3,556 · **Open issues**: 1,842 · **Contributors**: 448
+- **Stars**: 70,056 · **Forks**: 3,587 · **Open issues**: 1,844 · **Contributors**: 449
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 586 · **Open PRs**: 98 · **Closed issues**: 1711 · **Open issues**: 131 · **Commits**: 2304
+- **Releases**: 75 · **Merged PRs**: 589 · **Open PRs**: 97 · **Closed issues**: 1713 · **Open issues**: 131 · **Commits**: 2307
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 6 | 16 | 3 | 9 | 13 |
-| last60d | 2026-09-18 | 0 | 14 | 29 | 4 | 9 | 17 |
-| 90d | 2026-08-19 | 0 | 14 | 40 | 7 | 15 | 17 |
-| last180d | 2026-05-21 | 1 | 41 | 58 | 22 | 28 | 84 |
-| 360d | 2025-11-22 | 1 | 46 | 96 | 45 | 50 | 97 |
-| last720d | 2024-11-27 | 3 | 77 | 98 | 150 | 57 | 255 |
+| 30d | 2026-10-20 | 0 | 7 | 15 | 3 | 8 | 16 |
+| last60d | 2026-09-20 | 0 | 17 | 27 | 6 | 9 | 20 |
+| 90d | 2026-08-21 | 0 | 17 | 39 | 9 | 15 | 20 |
+| last180d | 2026-05-23 | 1 | 44 | 57 | 24 | 28 | 87 |
+| 360d | 2025-11-24 | 1 | 49 | 95 | 47 | 50 | 100 |
+| last720d | 2024-11-29 | 3 | 80 | 97 | 152 | 57 | 258 |
 
 ## Release assets
 
@@ -99,7 +99,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **180** distros on [repology.org](https://repology.org/project/ripgrep). **70** are ✅ on the latest upstream release, **95** are ⚠️ on an older version.
+Reported by **179** distros on [repology.org](https://repology.org/project/ripgrep). **70** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -125,4 +125,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T08:39:29Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:24:36Z._
