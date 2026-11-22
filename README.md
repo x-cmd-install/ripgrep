@@ -14,15 +14,15 @@ x install ripgrep
 
 ## Code insight
 
-Total: **43,728** lines of code across **123** files in the top 5 languages.
+Total: **45,549** lines of code across **127** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 40,957 | 2,867 | 4,872 | 102 |
+| Rust | 42,701 | 2,980 | 5,047 | 105 |
 | Python | 1,143 | 45 | 158 | 2 |
-| Yaml | 682 | 69 | 58 | 6 |
-| Zsh | 378 | 235 | 92 | 1 |
-| Toml | 372 | 20 | 48 | 12 |
+| Yaml | 687 | 69 | 58 | 6 |
+| Toml | 437 | 53 | 50 | 13 |
+| Zsh | 385 | 235 | 93 | 1 |
 
 ## OpenSSF Scorecard
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `15.2.0` (2026-07-15)
-- **Last commit**: 2026-11-21
+- **Last commit**: 2026-11-22
 - **Assets in release**: 28
 
 ## Popularity
 
-- **Stars**: 70,117 · **Forks**: 3,498 · **Open issues**: 1,845 · **Contributors**: 472
+- **Stars**: 70,131 · **Forks**: 3,513 · **Open issues**: 1,845 · **Contributors**: 498
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 618 · **Open PRs**: 67 · **Closed issues**: 1731 · **Open issues**: 114 · **Commits**: 2337
+- **Releases**: 75 · **Merged PRs**: 652 · **Open PRs**: 0 · **Closed issues**: 1750 · **Open issues**: 95 · **Commits**: 2372
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 24 | 2 | 9 | 2 | 0 |
-| last60d | 2026-09-22 | 0 | 43 | 2 | 13 | 3 | 0 |
-| 90d | 2026-08-23 | 0 | 46 | 10 | 18 | 6 | 0 |
-| last180d | 2026-05-25 | 1 | 73 | 28 | 34 | 19 | 0 |
-| 360d | 2025-11-26 | 1 | 78 | 65 | 60 | 38 | 0 |
-| last720d | 2024-12-01 | 3 | 109 | 67 | 165 | 45 | 288 |
+| 30d | 2026-10-23 | 0 | 27 | 0 | 10 | 1 | 67 |
+| last60d | 2026-09-23 | 0 | 49 | 0 | 14 | 2 | 83 |
+| 90d | 2026-08-24 | 0 | 57 | 0 | 21 | 3 | 83 |
+| last180d | 2026-05-26 | 1 | 90 | 0 | 41 | 11 | 147 |
+| 360d | 2025-11-27 | 1 | 110 | 0 | 72 | 26 | 161 |
+| last720d | 2024-12-02 | 3 | 143 | 0 | 180 | 29 | 323 |
 
 ## Release assets
 
@@ -125,4 +125,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:20:00Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:10:02Z._
