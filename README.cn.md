@@ -14,25 +14,25 @@ x install ripgrep
 
 ## 代码洞察
 
-合计: **45,549** 行代码（覆盖前 5 种语言、共 **127** 个文件）。
+合计: **45,637** 行代码（覆盖前 5 种语言、共 **127** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 42,701 | 2,980 | 5,047 | 105 |
+| Rust | 42,788 | 2,984 | 5,055 | 105 |
 | Python | 1,143 | 45 | 158 | 2 |
-| Yaml | 687 | 69 | 58 | 6 |
+| Yaml | 688 | 69 | 56 | 6 |
 | Toml | 437 | 53 | 50 | 13 |
 | Zsh | 385 | 235 | 93 | 1 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5 / 10**
+总评分: **5.4 / 10**
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Security-Policy** (0/10) — security policy file not detected
 
 ## 源代码
 
@@ -41,80 +41,86 @@ x install ripgrep
 
 ## 发布
 
-- **最新版本**: `15.2.0` (2026-07-15)
+- **最新版本**: `16.0.0` (2026-11-22)
 - **最近提交**: 2026-11-22
-- **Release 含资产**: 28 个
+- **Release 含资产**: 34 个
 
 ## 流行度
 
-- **Star**: 70,131 · **Fork**: 3,513 · **开放 issue**: 1,845 · **贡献者**: 498
+- **Star**: 70,184 · **Fork**: 3,531 · **开放 issue**: 1,845 · **贡献者**: 500
 
 ## 累计统计
 
-- **发布数**: 75 · **已合并 PR**: 652 · **开放 PR**: 0 · **已关闭 issue**: 1750 · **开放 issue**: 95 · **提交数**: 2372
+- **发布数**: 76 · **已合并 PR**: 656 · **开放 PR**: 1 · **已关闭 issue**: 1772 · **开放 issue**: 73 · **提交数**: 2380
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 27 | 0 | 10 | 1 | 67 |
-| last60d | 2026-09-23 | 0 | 49 | 0 | 14 | 2 | 83 |
-| 90d | 2026-08-24 | 0 | 57 | 0 | 21 | 3 | 83 |
-| last180d | 2026-05-26 | 1 | 90 | 0 | 41 | 11 | 147 |
-| 360d | 2025-11-27 | 1 | 110 | 0 | 72 | 26 | 161 |
-| last720d | 2024-12-02 | 3 | 143 | 0 | 180 | 29 | 323 |
+| 30d | 2026-10-24 | 1 | 31 | 1 | 10 | 1 | 0 |
+| last60d | 2026-09-24 | 1 | 52 | 1 | 15 | 1 | 0 |
+| 90d | 2026-08-25 | 1 | 61 | 1 | 23 | 1 | 0 |
+| last180d | 2026-05-27 | 2 | 94 | 1 | 48 | 3 | 0 |
+| 360d | 2025-11-28 | 2 | 114 | 1 | 92 | 6 | 0 |
+| last720d | 2024-12-03 | 4 | 147 | 1 | 201 | 8 | 331 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [ripgrep-15.2.0-aarch64-apple-darwin.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-apple-darwin.tar.gz) | 1.7 MiB | `native/darwin/arm64` |
-| [ripgrep-15.2.0-aarch64-apple-darwin.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-apple-darwin.tar.gz.sha256) | 109 B | `native/darwin/arm64` |
-| [ripgrep-15.2.0-aarch64-pc-windows-msvc.zip](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-pc-windows-msvc.zip) | 1.6 MiB | `native/win/arm64` |
-| [ripgrep-15.2.0-aarch64-pc-windows-msvc.zip.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-pc-windows-msvc.zip.sha256) | 179 B | `native/win/arm64` |
-| [ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz) | 1.8 MiB | `native/linux/arm64/glibc` |
-| [ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz.sha256) | 114 B | `native/linux/arm64/glibc` |
-| [ripgrep-15.2.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/arm64/musl` |
-| [ripgrep-15.2.0-aarch64-unknown-linux-musl.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-musl.tar.gz.sha256) | 115 B | `native/linux/arm64/musl` |
-| [ripgrep-15.2.0-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-gnueabihf.tar.gz) | 1.7 MiB | `native/linux/arm/glibc` |
-| [ripgrep-15.2.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256) | 118 B | `native/linux/arm/glibc` |
-| [ripgrep-15.2.0-armv7-unknown-linux-musleabi.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-musleabi.tar.gz) | 1.7 MiB | `native/linux/arm/musl` |
-| [ripgrep-15.2.0-armv7-unknown-linux-musleabi.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-musleabi.tar.gz.sha256) | 117 B | `native/linux/arm/musl` |
-| [ripgrep-15.2.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-musleabihf.tar.gz) | 1.7 MiB | `native/linux/arm/musl` |
-| [ripgrep-15.2.0-armv7-unknown-linux-musleabihf.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-armv7-unknown-linux-musleabihf.tar.gz.sha256) | 119 B | `native/linux/arm/musl` |
-| [ripgrep-15.2.0-i686-pc-windows-msvc.zip](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-i686-pc-windows-msvc.zip) | 1.6 MiB | `native/win/x64` |
-| [ripgrep-15.2.0-i686-pc-windows-msvc.zip.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-i686-pc-windows-msvc.zip.sha256) | 176 B | `native/win/x64` |
-| [ripgrep-15.2.0-s390x-unknown-linux-gnu.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-s390x-unknown-linux-gnu.tar.gz) | 2.1 MiB | `native/unknown` |
-| [ripgrep-15.2.0-s390x-unknown-linux-gnu.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-s390x-unknown-linux-gnu.tar.gz.sha256) | 112 B | `other` |
-| [ripgrep-15.2.0-x86_64-apple-darwin.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-apple-darwin.tar.gz) | 1.8 MiB | `native/darwin/x64` |
-| [ripgrep-15.2.0-x86_64-apple-darwin.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-apple-darwin.tar.gz.sha256) | 108 B | `native/darwin/x64` |
-| [ripgrep-15.2.0-x86_64-pc-windows-gnu.zip](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-gnu.zip) | 1.8 MiB | `native/win/x64` |
-| [ripgrep-15.2.0-x86_64-pc-windows-gnu.zip.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-gnu.zip.sha256) | 177 B | `native/win/x64` |
-| [ripgrep-15.2.0-x86_64-pc-windows-msvc.zip](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-msvc.zip) | 1.7 MiB | `native/win/x64` |
-| [ripgrep-15.2.0-x86_64-pc-windows-msvc.zip.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-msvc.zip.sha256) | 178 B | `native/win/x64` |
-| [ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/x64/musl` |
-| [ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz.sha256) | 114 B | `native/linux/x64/musl` |
-| [ripgrep_15.2.0-1_amd64.deb](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb) | 1.6 MiB | `runtime/deb/amd64` |
-| [ripgrep_15.2.0-1_amd64.deb.sha256](https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb.sha256) | 93 B | `other` |
+| [ripgrep-16.0.0-aarch64-apple-darwin.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-apple-darwin.tar.gz) | 1.7 MiB | `native/darwin/arm64` |
+| [ripgrep-16.0.0-aarch64-apple-darwin.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-apple-darwin.tar.gz.sha256) | 109 B | `native/darwin/arm64` |
+| [ripgrep-16.0.0-aarch64-pc-windows-msvc.zip](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-pc-windows-msvc.zip) | 1.6 MiB | `native/win/arm64` |
+| [ripgrep-16.0.0-aarch64-pc-windows-msvc.zip.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-pc-windows-msvc.zip.sha256) | 179 B | `native/win/arm64` |
+| [ripgrep-16.0.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-unknown-linux-gnu.tar.gz) | 1.8 MiB | `native/linux/arm64/glibc` |
+| [ripgrep-16.0.0-aarch64-unknown-linux-gnu.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-unknown-linux-gnu.tar.gz.sha256) | 114 B | `native/linux/arm64/glibc` |
+| [ripgrep-16.0.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-unknown-linux-musl.tar.gz) | 1.9 MiB | `native/linux/arm64/musl` |
+| [ripgrep-16.0.0-aarch64-unknown-linux-musl.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-unknown-linux-musl.tar.gz.sha256) | 115 B | `native/linux/arm64/musl` |
+| [ripgrep-16.0.0-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-armv7-unknown-linux-gnueabihf.tar.gz) | 1.7 MiB | `native/linux/arm/glibc` |
+| [ripgrep-16.0.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256) | 118 B | `native/linux/arm/glibc` |
+| [ripgrep-16.0.0-armv7-unknown-linux-musleabi.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-armv7-unknown-linux-musleabi.tar.gz) | 1.7 MiB | `native/linux/arm/musl` |
+| [ripgrep-16.0.0-armv7-unknown-linux-musleabi.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-armv7-unknown-linux-musleabi.tar.gz.sha256) | 117 B | `native/linux/arm/musl` |
+| [ripgrep-16.0.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-armv7-unknown-linux-musleabihf.tar.gz) | 1.7 MiB | `native/linux/arm/musl` |
+| [ripgrep-16.0.0-armv7-unknown-linux-musleabihf.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-armv7-unknown-linux-musleabihf.tar.gz.sha256) | 119 B | `native/linux/arm/musl` |
+| [ripgrep-16.0.0-i686-pc-windows-msvc.zip](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-i686-pc-windows-msvc.zip) | 1.6 MiB | `native/win/x64` |
+| [ripgrep-16.0.0-i686-pc-windows-msvc.zip.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-i686-pc-windows-msvc.zip.sha256) | 176 B | `native/win/x64` |
+| [ripgrep-16.0.0-i686-unknown-linux-gnu.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-i686-unknown-linux-gnu.tar.gz) | 1.8 MiB | `native/linux/x86/glibc` |
+| [ripgrep-16.0.0-i686-unknown-linux-gnu.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-i686-unknown-linux-gnu.tar.gz.sha256) | 111 B | `native/linux/x86/glibc` |
+| [ripgrep-16.0.0-riscv64gc-unknown-linux-gnu.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-riscv64gc-unknown-linux-gnu.tar.gz) | 1.8 MiB | `native/linux/riscv64/glibc` |
+| [ripgrep-16.0.0-riscv64gc-unknown-linux-gnu.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-riscv64gc-unknown-linux-gnu.tar.gz.sha256) | 116 B | `native/linux/riscv64/glibc` |
+| [ripgrep-16.0.0-s390x-unknown-linux-gnu.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-s390x-unknown-linux-gnu.tar.gz) | 2.2 MiB | `native/unknown` |
+| [ripgrep-16.0.0-s390x-unknown-linux-gnu.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-s390x-unknown-linux-gnu.tar.gz.sha256) | 112 B | `other` |
+| [ripgrep-16.0.0-x86_64-apple-darwin.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-apple-darwin.tar.gz) | 1.8 MiB | `native/darwin/x64` |
+| [ripgrep-16.0.0-x86_64-apple-darwin.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-apple-darwin.tar.gz.sha256) | 108 B | `native/darwin/x64` |
+| [ripgrep-16.0.0-x86_64-pc-windows-gnu.zip](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-pc-windows-gnu.zip) | 1.8 MiB | `native/win/x64` |
+| [ripgrep-16.0.0-x86_64-pc-windows-gnu.zip.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-pc-windows-gnu.zip.sha256) | 177 B | `native/win/x64` |
+| [ripgrep-16.0.0-x86_64-pc-windows-msvc.zip](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-pc-windows-msvc.zip) | 1.7 MiB | `native/win/x64` |
+| [ripgrep-16.0.0-x86_64-pc-windows-msvc.zip.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-pc-windows-msvc.zip.sha256) | 178 B | `native/win/x64` |
+| [ripgrep-16.0.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-unknown-linux-gnu.tar.gz) | 1.9 MiB | `native/linux/x64/glibc` |
+| [ripgrep-16.0.0-x86_64-unknown-linux-gnu.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-unknown-linux-gnu.tar.gz.sha256) | 113 B | `native/linux/x64/glibc` |
+| [ripgrep-16.0.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-unknown-linux-musl.tar.gz) | 2.1 MiB | `native/linux/x64/musl` |
+| [ripgrep-16.0.0-x86_64-unknown-linux-musl.tar.gz.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-unknown-linux-musl.tar.gz.sha256) | 114 B | `native/linux/x64/musl` |
+| [ripgrep_16.0.0-1_amd64.deb](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep_16.0.0-1_amd64.deb) | 1.6 MiB | `runtime/deb/amd64` |
+| [ripgrep_16.0.0-1_amd64.deb.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep_16.0.0-1_amd64.deb.sha256) | 93 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ripgrep) 上共有 **178** 个发行版报告此项目。**70** 个 ✅ 已是最新上游版本，**93** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ripgrep) 上共有 **178** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**148** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `15.2.0` | ✅ latest |
-| Debian 14 | `15.2.0` | ✅ latest |
+| Debian unstable | `15.2.0` | ⚠️ outdated |
+| Debian 14 | `15.2.0` | ⚠️ outdated |
 | Debian 13 | `14.1.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `15.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `14.1.0` | ⚠️ outdated |
-| Arch | `15.2.0` | ✅ latest |
-| Homebrew | `15.2.0` | ✅ latest |
-| Fedora rawhide | `15.2.0` | ✅ latest |
-| Nix unstable | `15.2.0` | ✅ latest |
-| Void | `15.2.0` | ✅ latest |
-| Alpine edge | `15.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `15.2.0` | ✅ latest |
+| Arch | `15.2.0` | ⚠️ outdated |
+| Homebrew | `16.0.0` | ✅ latest |
+| Fedora rawhide | `15.2.0` | ⚠️ outdated |
+| Nix unstable | `15.2.0` | ⚠️ outdated |
+| Void | `15.2.0` | ⚠️ outdated |
+| Alpine edge | `15.2.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `15.2.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -125,4 +131,4 @@ ripgrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261122.yml` · 2026-11-22T08:10:03Z._
+_数据快照: `data/card/261123.yml` · 2026-11-23T10:03:29Z._
