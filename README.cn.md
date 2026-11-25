@@ -14,11 +14,11 @@ x install ripgrep
 
 ## 代码洞察
 
-合计: **45,637** 行代码（覆盖前 5 种语言、共 **127** 个文件）。
+合计: **45,669** 行代码（覆盖前 5 种语言、共 **127** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 42,788 | 2,984 | 5,055 | 105 |
+| Rust | 42,820 | 2,996 | 5,056 | 105 |
 | Python | 1,143 | 45 | 158 | 2 |
 | Yaml | 688 | 69 | 56 | 6 |
 | Toml | 437 | 53 | 50 | 13 |
@@ -42,27 +42,27 @@ x install ripgrep
 ## 发布
 
 - **最新版本**: `16.0.0` (2026-11-22)
-- **最近提交**: 2026-11-22
+- **最近提交**: 2026-11-24
 - **Release 含资产**: 34 个
 
 ## 流行度
 
-- **Star**: 70,231 · **Fork**: 3,502 · **开放 issue**: 1,846 · **贡献者**: 499
+- **Star**: 70,313 · **Fork**: 3,485 · **开放 issue**: 1,846 · **贡献者**: 500
 
 ## 累计统计
 
-- **发布数**: 76 · **已合并 PR**: 655 · **开放 PR**: 4 · **已关闭 issue**: 1772 · **开放 issue**: 74 · **提交数**: 2380
+- **发布数**: 76 · **已合并 PR**: 656 · **开放 PR**: 3 · **已关闭 issue**: 1772 · **开放 issue**: 74 · **提交数**: 2381
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 28 | 4 | 10 | 2 | 73 |
-| last60d | 2026-09-25 | 1 | 49 | 4 | 15 | 2 | 89 |
-| 90d | 2026-08-26 | 1 | 60 | 4 | 22 | 2 | 89 |
-| last180d | 2026-05-28 | 2 | 93 | 4 | 47 | 4 | 153 |
-| 360d | 2025-11-29 | 2 | 112 | 4 | 91 | 7 | 168 |
-| last720d | 2024-12-04 | 4 | 146 | 4 | 201 | 9 | 331 |
+| 30d | 2026-10-26 | 1 | 28 | 3 | 10 | 2 | 74 |
+| last60d | 2026-09-26 | 1 | 50 | 3 | 15 | 2 | 90 |
+| 90d | 2026-08-27 | 1 | 61 | 3 | 22 | 2 | 90 |
+| last180d | 2026-05-29 | 2 | 94 | 3 | 47 | 4 | 154 |
+| 360d | 2025-11-30 | 2 | 113 | 3 | 91 | 7 | 169 |
+| last720d | 2024-12-05 | 4 | 147 | 3 | 201 | 9 | 332 |
 
 ## Release 资产
 
@@ -103,25 +103,6 @@ x install ripgrep
 | [ripgrep_16.0.0-1_amd64.deb](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep_16.0.0-1_amd64.deb) | 1.6 MiB | `runtime/deb/amd64` |
 | [ripgrep_16.0.0-1_amd64.deb.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep_16.0.0-1_amd64.deb.sha256) | 93 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/ripgrep) 上共有 **177** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**137** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `15.2.0` | ⚠️ outdated |
-| Debian 14 | `15.2.0` | ⚠️ outdated |
-| Debian 13 | `14.1.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `15.1.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `14.1.0` | ⚠️ outdated |
-| Arch | `15.2.0` | ⚠️ outdated |
-| Homebrew | `16.0.0` | ✅ latest |
-| Fedora rawhide | `15.2.0` | ⚠️ outdated |
-| Nix unstable | `15.2.0` | ⚠️ outdated |
-| Void | `15.2.0` | ⚠️ outdated |
-| Alpine edge | `15.2.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `15.2.0` | ⚠️ outdated |
-
 ## 改进这些数据
 
 ripgrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `ripgrep` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -131,4 +112,4 @@ ripgrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:38:11Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T10:15:01Z._

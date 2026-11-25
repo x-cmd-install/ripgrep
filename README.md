@@ -14,11 +14,11 @@ x install ripgrep
 
 ## Code insight
 
-Total: **45,637** lines of code across **127** files in the top 5 languages.
+Total: **45,669** lines of code across **127** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 42,788 | 2,984 | 5,055 | 105 |
+| Rust | 42,820 | 2,996 | 5,056 | 105 |
 | Python | 1,143 | 45 | 158 | 2 |
 | Yaml | 688 | 69 | 56 | 6 |
 | Toml | 437 | 53 | 50 | 13 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `16.0.0` (2026-11-22)
-- **Last commit**: 2026-11-22
+- **Last commit**: 2026-11-24
 - **Assets in release**: 34
 
 ## Popularity
 
-- **Stars**: 70,231 · **Forks**: 3,502 · **Open issues**: 1,846 · **Contributors**: 499
+- **Stars**: 70,313 · **Forks**: 3,485 · **Open issues**: 1,846 · **Contributors**: 500
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 655 · **Open PRs**: 4 · **Closed issues**: 1772 · **Open issues**: 74 · **Commits**: 2380
+- **Releases**: 76 · **Merged PRs**: 656 · **Open PRs**: 3 · **Closed issues**: 1772 · **Open issues**: 74 · **Commits**: 2381
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 28 | 4 | 10 | 2 | 73 |
-| last60d | 2026-09-25 | 1 | 49 | 4 | 15 | 2 | 89 |
-| 90d | 2026-08-26 | 1 | 60 | 4 | 22 | 2 | 89 |
-| last180d | 2026-05-28 | 2 | 93 | 4 | 47 | 4 | 153 |
-| 360d | 2025-11-29 | 2 | 112 | 4 | 91 | 7 | 168 |
-| last720d | 2024-12-04 | 4 | 146 | 4 | 201 | 9 | 331 |
+| 30d | 2026-10-26 | 1 | 28 | 3 | 10 | 2 | 74 |
+| last60d | 2026-09-26 | 1 | 50 | 3 | 15 | 2 | 90 |
+| 90d | 2026-08-27 | 1 | 61 | 3 | 22 | 2 | 90 |
+| last180d | 2026-05-29 | 2 | 94 | 3 | 47 | 4 | 154 |
+| 360d | 2025-11-30 | 2 | 113 | 3 | 91 | 7 | 169 |
+| last720d | 2024-12-05 | 4 | 147 | 3 | 201 | 9 | 332 |
 
 ## Release assets
 
@@ -103,25 +103,6 @@ Lowest-scoring checks:
 | [ripgrep_16.0.0-1_amd64.deb](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep_16.0.0-1_amd64.deb) | 1.6 MiB | `runtime/deb/amd64` |
 | [ripgrep_16.0.0-1_amd64.deb.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep_16.0.0-1_amd64.deb.sha256) | 93 B | `other` |
 
-## Distribution status
-
-Reported by **177** distros on [repology.org](https://repology.org/project/ripgrep). **25** are ✅ on the latest upstream release, **137** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `15.2.0` | ⚠️ outdated |
-| Debian 14 | `15.2.0` | ⚠️ outdated |
-| Debian 13 | `14.1.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `15.1.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `14.1.0` | ⚠️ outdated |
-| Arch | `15.2.0` | ⚠️ outdated |
-| Homebrew | `16.0.0` | ✅ latest |
-| Fedora rawhide | `15.2.0` | ⚠️ outdated |
-| Nix unstable | `15.2.0` | ⚠️ outdated |
-| Void | `15.2.0` | ⚠️ outdated |
-| Alpine edge | `15.2.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `15.2.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ripgrep` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -131,4 +112,4 @@ Install metadata for ripgrep lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:38:10Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:14:59Z._
