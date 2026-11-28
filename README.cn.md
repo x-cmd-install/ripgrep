@@ -47,7 +47,7 @@ x install ripgrep
 
 ## 流行度
 
-- **Star**: 70,401 · **Fork**: 3,493 · **开放 issue**: 1,849 · **贡献者**: 499
+- **Star**: 70,406 · **Fork**: 3,469 · **开放 issue**: 1,849 · **贡献者**: 499
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install ripgrep
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 1 | 27 | 5 | 10 | 5 | 74 |
-| last60d | 2026-09-28 | 1 | 50 | 5 | 15 | 5 | 90 |
-| 90d | 2026-08-29 | 1 | 60 | 5 | 22 | 5 | 90 |
-| last180d | 2026-05-31 | 2 | 94 | 5 | 46 | 7 | 154 |
-| 360d | 2025-12-02 | 2 | 111 | 5 | 90 | 10 | 169 |
-| last720d | 2024-12-07 | 4 | 146 | 5 | 201 | 12 | 332 |
+| 30d | 2026-10-29 | 1 | 27 | 5 | 10 | 5 | 74 |
+| last60d | 2026-09-29 | 1 | 50 | 5 | 15 | 5 | 90 |
+| 90d | 2026-08-30 | 1 | 60 | 5 | 22 | 5 | 90 |
+| last180d | 2026-06-01 | 2 | 93 | 5 | 46 | 7 | 154 |
+| 360d | 2025-12-03 | 2 | 111 | 5 | 90 | 10 | 169 |
+| last720d | 2024-12-08 | 4 | 146 | 5 | 201 | 12 | 332 |
 
 ## Release 资产
 
@@ -103,6 +103,25 @@ x install ripgrep
 | [ripgrep_16.0.0-1_amd64.deb](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep_16.0.0-1_amd64.deb) | 1.6 MiB | `runtime/deb/amd64` |
 | [ripgrep_16.0.0-1_amd64.deb.sha256](https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep_16.0.0-1_amd64.deb.sha256) | 93 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/ripgrep) 上共有 **176** 个发行版报告此项目。**38** 个 ✅ 已是最新上游版本，**123** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `15.2.0` | ⚠️ outdated |
+| Debian 14 | `15.2.0` | ⚠️ outdated |
+| Debian 13 | `14.1.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `15.1.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `14.1.0` | ⚠️ outdated |
+| Arch | `16.0.0` | ✅ latest |
+| Homebrew | `16.0.0` | ✅ latest |
+| Fedora rawhide | `15.2.0` | ⚠️ outdated |
+| Nix unstable | `15.2.0` | ⚠️ outdated |
+| Void | `16.0.0` | ✅ latest |
+| Alpine edge | `16.0.0` | ✅ latest |
+| openSUSE Tumbleweed | `15.2.0` | ⚠️ outdated |
+
 ## 改进这些数据
 
 ripgrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `ripgrep` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -112,4 +131,4 @@ ripgrep 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T09:10:40Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T09:17:52Z._
